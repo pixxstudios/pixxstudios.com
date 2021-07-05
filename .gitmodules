@@ -1,4 +1,5 @@
-[submodule "themes/pure"]
-	path = themes/pure
-	url = https://github.com/xiaoheiAh/hugo-theme-pure
+[submodule "themes/tale"]
+	path = themes/tale
+	url = https://github.com/EmielH/tale-hugo.git
+
 
