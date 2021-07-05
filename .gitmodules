@@ -1,4 +1,4 @@
-[submodule "themes/hugo-kiera"]
+[submodule "themes/pure"]
 	path = themes/pure
 	url = https://github.com/xiaoheiAh/hugo-theme-pure
 
