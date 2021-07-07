@@ -1,4 +1,15 @@
-baseURL = "http://example.org/"
+baseURL = "http://pixxstudios.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Gagandeep Singh"
 theme = "tale"
+
+[params]
+    desciption = "Gagandeep's blog"
+    mainSection = "posts"
+    showAllPostsOnHomePage = false
+    showProjectsList = false
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 1
