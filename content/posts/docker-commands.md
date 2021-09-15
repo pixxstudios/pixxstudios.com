@@ -27,7 +27,7 @@ docker run <image name> command
 
 example: docker run busybox ls
 
-![docker run busybox ls](images/Screen-Shot-2020-10-03-at-10.59.26-PM.png)
+![docker run busybox ls](/images/Screen-Shot-2020-10-03-at-10.59.26-PM.png)
 
 * * *
 
@@ -37,7 +37,7 @@ example: docker run busybox ls
 docker ps
 ```
 
-![docker ps](images/Screen-Shot-2020-10-03-at-11.05.19-PM-1024x66.png)
+![docker ps](/images/Screen-Shot-2020-10-03-at-11.05.19-PM-1024x66.png)
 
 ```javascript
 docker ps --all
@@ -45,7 +45,7 @@ docker ps --all
 
 This will list all the containers that were ever created on your machine.
 
-![docker ps -all](images/Screen-Shot-2020-10-03-at-11.09.15-PM-1024x124.png)
+![docker ps -all](/images/Screen-Shot-2020-10-03-at-11.09.15-PM-1024x124.png)
 
 * * *
 
@@ -59,11 +59,11 @@ example:
 
 run docker ps --all to get the list of containers
 
-![run docker ps --all](images/Screen-Shot-2020-10-03-at-11.09.15-PM-1024x124.png)
+![run docker ps --all](/images/Screen-Shot-2020-10-03-at-11.09.15-PM-1024x124.png)
 
 copy the container id of the stopped container (It will have a status as exited) that you want to restart.
 
-![run docker ps --all](images/Screen-Shot-2020-10-03-at-11.21.45-PM.png)
+![run docker ps --all](/images/Screen-Shot-2020-10-03-at-11.21.45-PM.png)
 
 It will start the container and use the optional **\-a** flag to log the default output of that container (In the above case it's ping pixxstudios.com)
 
@@ -75,7 +75,7 @@ It will start the container and use the optional **\-a** flag to log the default
 docker system prune
 ```
 
-![docker system prune](images/Screen-Shot-2020-10-03-at-11.26.53-PM-1024x398.png)
+![docker system prune](/images/Screen-Shot-2020-10-03-at-11.26.53-PM-1024x398.png)
 
 * * *
 

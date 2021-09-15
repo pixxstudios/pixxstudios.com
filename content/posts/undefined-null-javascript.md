@@ -14,11 +14,11 @@ tags:
 
 In Javascript undefined (a primitive type in Javascript) gets assigned to a variable that we declare but don't assign a value to. It's Javascript's way of telling that the value of this variable is not defined.
 
-![undefined](images/Screen-Shot-2020-10-04-at-9.44.03-PM.png)
+![undefined](/images/Screen-Shot-2020-10-04-at-9.44.03-PM.png)
 
 Even a function in Javascript which does not return anything, will return undefined by default.
 
-![undefined](images/Screen-Shot-2020-10-04-at-9.46.23-PM.png)
+![undefined](/images/Screen-Shot-2020-10-04-at-9.46.23-PM.png)
 
 So, to avoid any error we should never assign undefined to a variable manually.
 
