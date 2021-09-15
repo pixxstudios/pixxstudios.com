@@ -1,5 +1,6 @@
 ---
 title: "Browser storage (overview)"
+author: "Gagandeep Singh"
 date: "2020-06-24"
 categories: 
   - "javascript"

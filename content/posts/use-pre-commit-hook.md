@@ -1,5 +1,6 @@
 ---
 title: "Using pre-commit hook in package.json"
+author: "Gagandeep Singh"
 date: "2021-09-02"
 categories: 
   - "javascript"

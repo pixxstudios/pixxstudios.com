@@ -1,5 +1,6 @@
 ---
 title: "Docker - useful commands"
+author: "Gagandeep Singh"
 date: "2020-10-04"
 categories: 
   - "docker"

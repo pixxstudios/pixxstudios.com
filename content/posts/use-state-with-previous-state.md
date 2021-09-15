@@ -1,5 +1,6 @@
 ---
 title: "Using useState hook with the previous state"
+author: "Gagandeep Singh"
 date: "2020-10-02"
 categories: 
   - "javascript"

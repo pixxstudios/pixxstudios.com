@@ -1,5 +1,6 @@
 ---
 title: "Container vs Presentational Components in ReactJS"
+author: "Gagandeep Singh"
 date: "2017-10-23"
 categories: 
   - "reactjs"

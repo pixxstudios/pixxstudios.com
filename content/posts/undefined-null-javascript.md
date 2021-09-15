@@ -1,5 +1,6 @@
 ---
 title: "undefined and null in Javascript"
+author: "Gagandeep Singh"
 date: "2020-10-06"
 categories: 
   - "javascript"

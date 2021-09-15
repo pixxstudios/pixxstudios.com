@@ -1,6 +1,7 @@
 ---
 title: "Go - Arrays and Slices"
 author: "Gagandeep Singh"
+author: "Gagandeep Singh"
 date: "2021-09-10"
 categories: 
   - "go"

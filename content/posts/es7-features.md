@@ -1,5 +1,6 @@
 ---
-title: "ES7 features you should be using."
+title: "ES7 features you should be using"
+author: "Gagandeep Singh"
 date: "2019-05-07"
 categories: 
   - "javascript"
