@@ -2,6 +2,7 @@
 title: "Why variable name cannot start with a number?"
 author: "Gagandeep Singh"
 date: "2021-09-12"
+draft: true
 categories: 
   - "programming"
 tags: 

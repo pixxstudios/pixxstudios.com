@@ -1,7 +1,6 @@
 ---
 title: "Go - Arrays and Slices"
 author: "Gagandeep Singh"
-author: "Gagandeep Singh"
 date: "2021-09-10"
 categories: 
   - "go"
@@ -36,4 +35,14 @@ There is another way to define and initiaize array in a single statement.
   name := [4]string{"Eeny", "Meeny", "Miny", "Moe"}
 ```
 
+or
+
+```go
+  name := [...]string{"Eeny", "Meeny", "Miny", "Moe"}
+```
+
+The three dots will check the number of elements to be added and create the Array of that length.
+
 *Once the length of array has been defined, it cannot be changed*. An array of size 4 cannot have 5 or more elements.
+
+### Slices
