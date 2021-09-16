@@ -9,16 +9,7 @@
       <link>https://pixxstudios.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 12 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>programming</title>
-      <link>https://pixxstudios.github.io/tags/programming/</link>
-      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://pixxstudios.github.io/tags/programming/</guid>
-      <description></description>
-    </item>
-    
+    <lastBuildDate>Fri, 10 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>go</title>
       <link>https://pixxstudios.github.io/tags/go/</link>

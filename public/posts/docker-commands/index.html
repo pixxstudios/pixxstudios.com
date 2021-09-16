@@ -214,32 +214,32 @@ run docker ps &ndash;all to get the list of containers"/>
 <h4 id="override-the-default-command-for-a-container"><strong>Override the default command for a container</strong><a hidden class="anchor" aria-hidden="true" href="#override-the-default-command-for-a-container">#</a></h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">docker</span> <span style="color:#a6e22e">run</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">image</span> <span style="color:#a6e22e">name</span><span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">command</span>
 </code></pre></div><p>example: docker run busybox ls</p>
-<p><img loading="lazy" src="images/Screen-Shot-2020-10-03-at-10.59.26-PM.png" alt="docker run busybox ls"  />
+<p><img loading="lazy" src="/images/Screen-Shot-2020-10-03-at-10.59.26-PM.png" alt="docker run busybox ls"  />
 </p>
 <hr>
 <h4 id="show-running-containers"><strong>Show running containers</strong><a hidden class="anchor" aria-hidden="true" href="#show-running-containers">#</a></h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">docker</span> <span style="color:#a6e22e">ps</span>
-</code></pre></div><p><img loading="lazy" src="images/Screen-Shot-2020-10-03-at-11.05.19-PM-1024x66.png" alt="docker ps"  />
+</code></pre></div><p><img loading="lazy" src="/images/Screen-Shot-2020-10-03-at-11.05.19-PM-1024x66.png" alt="docker ps"  />
 </p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">docker</span> <span style="color:#a6e22e">ps</span> <span style="color:#f92672">--</span><span style="color:#a6e22e">all</span>
 </code></pre></div><p>This will list all the containers that were ever created on your machine.</p>
-<p><img loading="lazy" src="images/Screen-Shot-2020-10-03-at-11.09.15-PM-1024x124.png" alt="docker ps -all"  />
+<p><img loading="lazy" src="/images/Screen-Shot-2020-10-03-at-11.09.15-PM-1024x124.png" alt="docker ps -all"  />
 </p>
 <hr>
 <h4 id="restart-stopped-containers"><strong>Restart stopped containers</strong><a hidden class="anchor" aria-hidden="true" href="#restart-stopped-containers">#</a></h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">docker</span> <span style="color:#a6e22e">start</span> <span style="color:#f92672">&lt;</span><span style="color:#a6e22e">container</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">&gt;</span>
 </code></pre></div><p>example:</p>
 <p>run docker ps &ndash;all to get the list of containers</p>
-<p><img loading="lazy" src="images/Screen-Shot-2020-10-03-at-11.09.15-PM-1024x124.png" alt="run docker ps &amp;ndash;all"  />
+<p><img loading="lazy" src="/images/Screen-Shot-2020-10-03-at-11.09.15-PM-1024x124.png" alt="run docker ps &amp;ndash;all"  />
 </p>
 <p>copy the container id of the stopped container (It will have a status as exited) that you want to restart.</p>
-<p><img loading="lazy" src="images/Screen-Shot-2020-10-03-at-11.21.45-PM.png" alt="run docker ps &amp;ndash;all"  />
+<p><img loading="lazy" src="/images/Screen-Shot-2020-10-03-at-11.21.45-PM.png" alt="run docker ps &amp;ndash;all"  />
 </p>
 <p>It will start the container and use the optional <strong>-a</strong> flag to log the default output of that container (In the above case it&rsquo;s ping pixxstudios.com)</p>
 <hr>
 <h4 id="remove-stopped-containers"><strong>Remove stopped containers</strong><a hidden class="anchor" aria-hidden="true" href="#remove-stopped-containers">#</a></h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">docker</span> <span style="color:#a6e22e">system</span> <span style="color:#a6e22e">prune</span>
-</code></pre></div><p><img loading="lazy" src="images/Screen-Shot-2020-10-03-at-11.26.53-PM-1024x398.png" alt="docker system prune"  />
+</code></pre></div><p><img loading="lazy" src="/images/Screen-Shot-2020-10-03-at-11.26.53-PM-1024x398.png" alt="docker system prune"  />
 </p>
 <hr>
 <h4 id="get-logs-from-a-container"><strong>Get logs from a container</strong><a hidden class="anchor" aria-hidden="true" href="#get-logs-from-a-container">#</a></h4>

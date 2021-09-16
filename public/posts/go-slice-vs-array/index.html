@@ -101,8 +101,8 @@
   "keywords": [
     "go", "golang"
   ],
-  "articleBody": "Arrays Like any other programming language, arrays in Go are used to group elements of fixed length together. Arrays can only hold elements of same type. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it’s length is 4, so its type is [4]string.\nvar names [4]string The default values of an array are the Zero values, which is based on the data type of array. In the above array since the data type is string, so the defult Zero values in this case will be \"\" (empty string).\nValues can be set like this:\nname[0]=\"Eeny\" name[1]=\"Meeny\" name[2]=\"Miny\" name[3]=\"Moe\" There is another way to define and initiaize array in a single statement.\nname := [4]string{\"Eeny\", \"Meeny\", \"Miny\", \"Moe\"} Once the length of array has been defined, it cannot be changed. An array of size 4 cannot have 5 or more elements.\n",
-  "wordCount" : "173",
+  "articleBody": "Arrays Like any other programming language, arrays in Go are used to group elements of fixed length together. Arrays can only hold elements of same type. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it’s length is 4, so its type is [4]string.\nvar names [4]string The default values of an array are the Zero values, which is based on the data type of array. In the above array since the data type is string, so the defult Zero values in this case will be \"\" (empty string).\nValues can be set like this:\nname[0]=\"Eeny\" name[1]=\"Meeny\" name[2]=\"Miny\" name[3]=\"Moe\" There is another way to define and initiaize array in a single statement.\nname := [4]string{\"Eeny\", \"Meeny\", \"Miny\", \"Moe\"} or\nname := [...]string{\"Eeny\", \"Meeny\", \"Miny\", \"Moe\"} The three dots will check the number of elements to be added and create the Array of that length.\nOnce the length of array has been defined, it cannot be changed. An array of size 4 cannot have 5 or more elements.\nSlices ",
+  "wordCount" : "200",
   "inLanguage": "en",
   "datePublished": "2021-09-10T00:00:00Z",
   "dateModified": "2021-09-10T00:00:00Z",
@@ -206,7 +206,11 @@
   <span style="color:#a6e22e">name</span>[<span style="color:#ae81ff">3</span>]=<span style="color:#e6db74">&#34;Moe&#34;</span>
 </code></pre></div><p>There is another way to define and initiaize array in a single statement.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">  <span style="color:#a6e22e">name</span> <span style="color:#f92672">:=</span> [<span style="color:#ae81ff">4</span>]<span style="color:#66d9ef">string</span>{<span style="color:#e6db74">&#34;Eeny&#34;</span>, <span style="color:#e6db74">&#34;Meeny&#34;</span>, <span style="color:#e6db74">&#34;Miny&#34;</span>, <span style="color:#e6db74">&#34;Moe&#34;</span>}
-</code></pre></div><p><em>Once the length of array has been defined, it cannot be changed</em>. An array of size 4 cannot have 5 or more elements.</p>
+</code></pre></div><p>or</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">  <span style="color:#a6e22e">name</span> <span style="color:#f92672">:=</span> [<span style="color:#f92672">...</span>]<span style="color:#66d9ef">string</span>{<span style="color:#e6db74">&#34;Eeny&#34;</span>, <span style="color:#e6db74">&#34;Meeny&#34;</span>, <span style="color:#e6db74">&#34;Miny&#34;</span>, <span style="color:#e6db74">&#34;Moe&#34;</span>}
+</code></pre></div><p>The three dots will check the number of elements to be added and create the Array of that length.</p>
+<p><em>Once the length of array has been defined, it cannot be changed</em>. An array of size 4 cannot have 5 or more elements.</p>
+<h3 id="slices">Slices<a hidden class="anchor" aria-hidden="true" href="#slices">#</a></h3>
 
 
   </div>
@@ -217,11 +221,6 @@
       <li><a href="https://pixxstudios.github.io/tags/golang/">golang</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://pixxstudios.github.io/posts/variable-names/">
-    <span class="title">« Prev Page</span>
-    <br>
-    <span>Why variable name cannot start with a number?</span>
-  </a>
   <a class="next" href="https://pixxstudios.github.io/posts/use-pre-commit-hook/">
     <span class="title">Next Page »</span>
     <br>

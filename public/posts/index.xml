@@ -9,18 +9,7 @@
       <link>https://pixxstudios.github.io/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 12 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Why variable name cannot start with a number?</title>
-      <link>https://pixxstudios.github.io/posts/variable-names/</link>
-      <pubDate>Sun, 12 Sep 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://pixxstudios.github.io/posts/variable-names/</guid>
-      <description>There are certain rules when declaring a variable like there should no spaces in a variable name, only special character that be used is _ (underscore) and it cannot start with a number and few others.
-Lets focus on, why a varibale name cannot start with a number?
-Short answer - The compiler may confuse it a number literal i.e. it might not be able to differentiate between whether it&amp;rsquo;s a variable name or a number value.</description>
-    </item>
-    
+    <lastBuildDate>Fri, 10 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go - Arrays and Slices</title>
       <link>https://pixxstudios.github.io/posts/go-slice-vs-array/</link>
