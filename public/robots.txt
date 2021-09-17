@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://pixxstudios.github.io/sitemap.xml
