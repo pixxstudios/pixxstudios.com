@@ -1,20 +1,18 @@
 ---
-title: "Web Sockets"
+title: "WebSockets"
 author: "Gagandeep Singh"
-date: "2021-09-21"
+date: "2021-09-17"
 categories: 
   - "javascript"
 tags: 
-  - "web sockets"
+  - "websockets"
   - "javascript"
+draft: true
 ---
 
-- Storing data on the machine of the user
-- Data is available to the user on that particular machine and hence cannot be shared with anyone else
-- Example: Storing data such as items in my shopping cart or recently viewed products
-- Different types of browser storage options available are:
-  - Local storage / Session storage
-  - Cookies
-  - IndexedDB
+WebSockets allows a two way persistent connection between client and server. So rather than client having to poll (call the endpoint and fetch new data) the backend, server sends the response by itself if there is updated data available. Also since it's a two way connection, client can send messages to server as well.
 
-* * *
+- open – connection established
+- message – data received
+- error – websocket error
+- close – connection closed
