@@ -46,3 +46,5 @@ The three dots will check the number of elements to be added and create the Arra
 *Once the length of array has been defined, it cannot be changed*. An array of size 4 cannot have 5 or more elements.
 
 ### Slices
+
+Slices on the other hand are similar to arrays but with flexible length.
