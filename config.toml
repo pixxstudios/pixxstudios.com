@@ -43,7 +43,7 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
 
 [Params.logo]
   # image = "img/placeholder.png" # Logo image. Path relative to "static"
-  title = "Jabascript | React | Go" # Logo title, otherwise will use site title
+  title = "Javascript | React | Go" # Logo title, otherwise will use site title
   subtitle = "" # Logo subtitle
 
 [Params.thumbnail]
