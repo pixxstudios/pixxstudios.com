@@ -13,7 +13,7 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
 
 [Params]
   subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
-  description = "javascript, react, golang" # Site description. Used in meta description
+  description = "javascript, react, golang, programming" # Site description. Used in meta description
   copyright = "Gagandeep Singh" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
@@ -43,8 +43,8 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
 
 [Params.logo]
   # image = "img/placeholder.png" # Logo image. Path relative to "static"
-  title = "Javascript | React | Go" # Logo title, otherwise will use site title
-  subtitle = "" # Logo subtitle
+  title = "Gagandeep Singh" # Logo title, otherwise will use site title
+  subtitle = "Tech blog" # Logo subtitle
 
 [Params.thumbnail]
   visibility = ["list", "post"] # Control thumbnail visibility
