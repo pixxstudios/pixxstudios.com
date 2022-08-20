@@ -3,4 +3,4 @@ title: "Projects"
 menu: ["main", "footer"]
 ---
 
-To be updated
+[QR Code Generator](https://qrc-code-generator.vercel.app/)
