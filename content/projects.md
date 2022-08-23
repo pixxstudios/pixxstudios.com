@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Mini Projects"
 menu: ["main", "footer"]
 ---
 
