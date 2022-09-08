@@ -1,8 +1,8 @@
 baseurl = "https://pixxstudios.github.io/"
-title = "Javascript | React | Go"
+title = "Gagandeep Singh"
 languageCode = "en-us"
 paginate = "5" # Number of posts per page
-theme = "mainroad"
+theme = "gokarna"
 disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tracking id
 
@@ -12,8 +12,9 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
   avatar = "img/avatar.png"
 
 [Params]
+  avatarURL = "images/programmer.png"
   subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
-  description = "javascript, react, golang, programming" # Site description. Used in meta description
+  description = "Javascript | React | Go | AWS" # Site description. Used in meta description
   copyright = "Gagandeep Singh" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
@@ -23,8 +24,8 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
-  mainSections = ["posts"] # "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
-  dateformat = "2006-01-02" # Change the format of dates
+  mainSections = [] # ["posts "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "02-01-2006" # Change the format of dates
   mathjax = true # Enable MathJax
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
@@ -43,8 +44,8 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
 
 [Params.logo]
   # image = "img/placeholder.png" # Logo image. Path relative to "static"
-  title = "Gagandeep Singh" # Logo title, otherwise will use site title
-  subtitle = "Tech blog" # Logo subtitle
+  title = "pixxstudios" # Logo title, otherwise will use site title
+  subtitle = "Javascript | React | Go | AWS" # Logo subtitle
 
 [Params.thumbnail]
   visibility = ["list", "post"] # Control thumbnail visibility
@@ -84,3 +85,39 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
 # [[Params.widgets.social.custom]]
   # title = "My Home Page"
   # url = "http://example.com"
+
+[[menu.main]]
+    name = "Home"
+    pre = "<span data-feather='home'></span>"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Posts"
+    pre = "<span data-feather='book'></span>"
+    url = "/posts/"
+    weight = 1
+
+[[menu.main]]
+    name = "Other Posts"
+    pre = "<span data-feather='book'></span>"
+    url = "/other-posts/"
+    weight = 2
+  
+[[menu.main]]
+    name = "Projects"
+    pre = "<span data-feather='code'></span>"
+    url = "/projects/"
+    weight = 2
+
+[[menu.main]]
+    name = "About"
+    pre = "<span data-feather='tag'></span>"
+    url = "/about/"
+    weight = 3
+  
+[[menu.main]]
+    name = "Tags"
+    pre = "<span data-feather='tag'></span>"
+    url = "/tags/"
+    weight = 4
