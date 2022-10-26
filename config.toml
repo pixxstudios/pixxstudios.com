@@ -14,7 +14,7 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
 [Params]
   avatarURL = "images/programmer.png"
   subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
-  description = "Javascript | React | Go | AWS" # Site description. Used in meta description
+  description = "Javascript | React | Go" # Site description. Used in meta description
   copyright = "Gagandeep Singh" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
