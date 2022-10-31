@@ -12,9 +12,15 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
   avatar = "img/avatar.png"
 
 [Params]
+  socialIcons = [
+    {name = "github", url = "https://github.com/pixxstudios"},
+    {name = "instagram", url = "https://www.instagram.com/pixxstudios"},
+    {name = "twitter", url = "https://twitter.com/pixxstudio"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/pixxstudios/"},
+  ]
   avatarURL = "images/programmer.png"
   subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
-  description = "Javascript | React | Go" # Site description. Used in meta description
+  description = "" # Site description. Used in meta description
   copyright = "Gagandeep Singh" # Footer copyright holder, otherwise will use site title
   opengraph = true # Enable OpenGraph if true
   schema = true # Enable Schema
@@ -45,7 +51,7 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
 [Params.logo]
   # image = "img/placeholder.png" # Logo image. Path relative to "static"
   title = "pixxstudios" # Logo title, otherwise will use site title
-  subtitle = "Javascript | React | Go | AWS" # Logo subtitle
+  subtitle = "Gagandeep Singh" # Logo subtitle
 
 [Params.thumbnail]
   visibility = ["list", "post"] # Control thumbnail visibility
@@ -77,10 +83,10 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
   # email = "example@example.com"
 
 # Custom social links
-# [[Params.widgets.social.custom]]
-  #title = "Youtube"
-  #url = "https://youtube.com/user/username"
-  #icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+[[Params.widgets.social.custom]]
+  title = "Youtube"
+  url = "https://youtube.com/user/username"
+  icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
 
 # [[Params.widgets.social.custom]]
   # title = "My Home Page"
@@ -121,3 +127,4 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
     pre = "<span data-feather='tag'></span>"
     url = "/tags/"
     weight = 4
+    
