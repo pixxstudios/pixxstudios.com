@@ -2,7 +2,8 @@ baseurl = "https://pixxstudios.github.io/"
 title = "Gagandeep Singh"
 languageCode = "en-us"
 paginate = "5" # Number of posts per page
-theme = "gokarna"
+# theme = "gokarna"
+theme = "mainroad"
 disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tracking id
 
@@ -12,12 +13,12 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
   avatar = "img/avatar.png"
 
 [Params]
-  socialIcons = [
-    {name = "github", url = "https://github.com/pixxstudios"},
-    {name = "instagram", url = "https://www.instagram.com/pixxstudios"},
-    {name = "twitter", url = "https://twitter.com/pixxstudio"},
-    {name = "linkedin", url = "https://www.linkedin.com/in/pixxstudios/"},
-  ]
+  # socialIcons = [
+  #   {name = "github", url = "https://github.com/pixxstudios"},
+  #   {name = "instagram", url = "https://www.instagram.com/pixxstudios"},
+  #   {name = "twitter", url = "https://twitter.com/pixxstudio"},
+  #   {name = "linkedin", url = "https://www.linkedin.com/in/pixxstudios/"},
+  # ]
   avatarURL = "images/programmer.png"
   subtitle = "" # Deprecated in favor of .Site.Params.logo.subtitle
   description = "" # Site description. Used in meta description
@@ -30,7 +31,7 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
-  mainSections = [] # ["posts "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
+  mainSections = ["post", "blog", "news"] # Specify section pages to show on home page and the "Recent articles" widget
   dateformat = "02-01-2006" # Change the format of dates
   mathjax = true # Enable MathJax
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
@@ -83,25 +84,19 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
   # email = "example@example.com"
 
 # Custom social links
-[[Params.widgets.social.custom]]
-  title = "Youtube"
-  url = "https://youtube.com/user/username"
-  icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
+# [[Params.widgets.social.custom]]
+#   title = "Youtube"
+#   url = "https://youtube.com/user/username"
+#   icon = "youtube.svg" # Optional. Path relative to "layouts/partials"
 
 # [[Params.widgets.social.custom]]
   # title = "My Home Page"
   # url = "http://example.com"
 
 [[menu.main]]
-    name = "Home"
+    name = "Posts"
     pre = "<span data-feather='home'></span>"
     url = "/"
-    weight = 1
-
-[[menu.main]]
-    name = "Posts"
-    pre = "<span data-feather='book'></span>"
-    url = "/posts/"
     weight = 1
 
 [[menu.main]]
@@ -110,11 +105,11 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
     url = "/other-posts/"
     weight = 2
   
-[[menu.main]]
-    name = "Projects"
-    pre = "<span data-feather='code'></span>"
-    url = "/projects/"
-    weight = 2
+# [[menu.main]]
+#     name = "Projects"
+#     pre = "<span data-feather='code'></span>"
+#     url = "/projects/"
+#     weight = 2
 
 [[menu.main]]
     name = "About"
