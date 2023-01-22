@@ -74,9 +74,9 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
 [Params.widgets.social]
   # Enable parts of social widget
   # facebook = "username"
-  twitter = "pixxstudio"
+  # twitter = "pixxstudio"
   instagram = "pixxstudios"
-  linkedin = "pixxstudios"
+  # linkedin = "pixxstudios"
   # telegram = "username"
   github = "pixxstudios"
   # gitlab = "username"
