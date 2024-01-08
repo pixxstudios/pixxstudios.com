@@ -2,8 +2,7 @@ baseurl = "https://pixxstudios.github.io/"
 title = "Gagandeep Singh"
 languageCode = "en-us"
 paginate = "5" # Number of posts per page
-# theme = "gokarna"
-theme = "mainroad"
+theme = "mini"
 disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tracking id
 
@@ -52,7 +51,7 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
 [Params.logo]
   # image = "img/placeholder.png" # Logo image. Path relative to "static"
   title = "pixxstudios" # Logo title, otherwise will use site title
-  subtitle = "Gagandeep Singh" # Logo subtitle
+  subtitle = "pixxstudios" # Logo subtitle
 
 [Params.thumbnail]
   visibility = ["list", "post"] # Control thumbnail visibility
@@ -96,7 +95,7 @@ googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tra
 [[menu.main]]
     name = "Posts"
     pre = "<span data-feather='home'></span>"
-    url = "/"
+    url = "/posts"
     weight = 1
 
 [[menu.main]]
