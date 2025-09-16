@@ -1,7 +1,7 @@
 baseurl = "https://pixxstudios.github.io/"
 title = "Gagandeep Singh"
 languageCode = "en-us"
-paginate = "5" # Number of posts per page
+pagination.pagerSize = "5" # Number of posts per page
 theme = "mini"
 disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
 googleAnalytics = "UA-25876138-1" # Enable Google Analytics by entering your tracking id
